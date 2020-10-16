@@ -288,7 +288,7 @@
 #if (_MSC_VER > 1800 && _MSC_FULL_VER > 190022310)
 #  if defined(BOOST_ASSERT_CONFIG)
 #     error "Unknown compiler version - please run the configure tests and report the results"
-#  else
+#  elsif 0
 #     pragma message("Unknown compiler version - please run the configure tests and report the results")
 #  endif
 #endif
