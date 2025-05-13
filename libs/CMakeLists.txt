@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.12)
+include("../../../ugcore/cmake/ug_cmake_versions.cmake")
 
 project(P_BOOST_FOR_UG4)
 
